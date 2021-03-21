@@ -230,3 +230,26 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+@media screen and (max-width: 425px) {
+  header,
+  nav,
+  .main-visual,
+  main,
+  .blog,
+  .sidebar {
+    width: 100%;
+  }
+
+  .nav-list-item {
+    display: block;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  main {
+    display: block;
+  }
+}
